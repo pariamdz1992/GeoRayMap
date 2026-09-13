@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+# training outputs and downloaded / exported weights
+checkpoints/
+release/
+*.pt
+*.pth
+results/local_runs.jsonl
+figures/out/
+radiounet_ray/Results/
+radiounet_ray/*.csv
+# SLURM logs
+*.out

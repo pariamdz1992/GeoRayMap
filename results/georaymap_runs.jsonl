@@ -1,0 +1,9 @@
+{"model": "raynet_srm_n16_bs1", "MSE": 0.000178, "NMSE": 0.004791, "MAE": 0.004967, "PSNR": 38.119641, "RMSE": 0.01288, "SSIM": 0.956355, "latency_s": 0.00548, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_n0_bs1", "MSE": 0.000268, "NMSE": 0.006721, "MAE": 0.006242, "PSNR": 36.505844, "RMSE": 0.015644, "SSIM": 0.94458, "latency_s": 0.00515, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_bs1", "MSE": 0.000177, "NMSE": 0.004768, "MAE": 0.004954, "PSNR": 38.10617, "RMSE": 0.012879, "SSIM": 0.956557, "latency_s": 0.00582, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_ssim0.0_bs1", "MSE": 0.000182, "NMSE": 0.004922, "MAE": 0.004773, "PSNR": 38.011351, "RMSE": 0.013055, "SSIM": 0.954851, "latency_s": 0.00587, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_learned_bs1", "MSE": 0.000184, "NMSE": 0.004944, "MAE": 0.005049, "PSNR": 37.931026, "RMSE": 0.013132, "SSIM": 0.955745, "latency_s": 0.00587, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_n16_irt2_bf16_bs1", "MSE": 0.000509, "NMSE": 0.015403, "MAE": 0.008586, "PSNR": 33.744937, "RMSE": 0.021581, "SSIM": 0.930099, "latency_s": 0.00548, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_n0_irt2_bf16_bs1", "MSE": 0.000721, "NMSE": 0.021099, "MAE": 0.010962, "PSNR": 32.165404, "RMSE": 0.025777, "SSIM": 0.906714, "latency_s": 0.00523, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_bf16_bs1", "MSE": 0.00018, "NMSE": 0.004846, "MAE": 0.005004, "PSNR": 38.046598, "RMSE": 0.012976, "SSIM": 0.955799, "latency_s": 0.00591, "params_M": 10.86, "NFE": 1}
+{"model": "raynet_srm_ssim0.0_edge0.0_bf16_bs1", "MSE": 0.000193, "NMSE": 0.005198, "MAE": 0.004913, "PSNR": 37.717015, "RMSE": 0.013458, "SSIM": 0.952941, "latency_s": 0.00601, "params_M": 10.86, "NFE": 1}

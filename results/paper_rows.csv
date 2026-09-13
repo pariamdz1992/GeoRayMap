@@ -1,0 +1,16 @@
+table,block,method,nmse_e3,rmse_e2,psnr_db,ssim,latency_ms,params_M,run
+1,,RME-GAN,13.73,2.228,33.29,0.9123,2.51,13.3,
+1,,RadioUNet,10.68,1.961,34.45,0.9240,2.56,13.3,radiounet_ray (RU_RAY=0)
+1,,UVM-Net,14.92,2.381,32.62,0.8995,26.4,1004,
+1,,RadioDiff (our reproduction),12.65,2.126,33.69,0.9231,2497,280,
+1,,RadioFlow (our reproduction),13.55,2.301,32.94,0.8452,8.76,54.1,
+1,,GeoRayMap,4.79,1.288,38.12,0.9564,5.48,10.9,raynet_srm_n16_bs1
+2,ConvNeXt U-Net / DPM,without ray channels,6.72,1.564,36.51,0.9446,5.15,10.9,raynet_srm_n0_bs1
+2,ConvNeXt U-Net / DPM,ray channels N=16 (ours),4.79,1.288,38.12,0.9564,5.48,10.9,raynet_srm_n16_bs1
+2,ConvNeXt U-Net / DPM,ray channels N=64,4.77,1.288,38.11,0.9566,5.82,10.9,raynet_srm_bs1
+2,ConvNeXt U-Net / DPM,N=64 without SSIM term,4.92,1.306,38.01,0.9549,5.87,10.9,raynet_srm_ssim0.0_bs1
+2,ConvNeXt U-Net / DPM,N=64 + learned attenuation,4.94,1.313,37.93,0.9557,5.87,10.9,raynet_srm_learned_bs1
+2,RadioUNet / DPM,without ray channels,10.68,1.961,34.45,0.9240,2.56,13.3,radiounet_ray (RU_RAY=0)
+2,RadioUNet / DPM,ray channels N=16,8.03,,35.77,0.9363,3.30,13.3,radiounet_ray (RU_RAY=1)
+2,ConvNeXt U-Net / IRT2 (bf16),without ray channels,21.10,2.578,32.17,0.9067,5.23,10.9,raynet_srm_n0_irt2_bf16_bs1
+2,ConvNeXt U-Net / IRT2 (bf16),ray channels N=16,15.40,2.158,33.74,0.9301,5.48,10.9,raynet_srm_n16_irt2_bf16_bs1
