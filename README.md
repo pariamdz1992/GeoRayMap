@@ -92,7 +92,6 @@ The weights of every GeoRayMap row in the paper are attached to the
 | `georaymap_irt2_n16.pt` | trained and tested on IRT2 targets | 33.74 |
 | `georaymap_irt2_noray.pt` | IRT2 targets, without ray channels | 32.17 |
 | `radiounet_ray_n16.pt` | RadioUNet + ray channels ([radiounet_ray/](radiounet_ray/)) | 35.77 |
-| `radiounet.pt` | RadioUNet, our training ([radiounet_ray/](radiounet_ray/)) | 34.45 |
 
 ```bash
 wget https://github.com/pariamdz1992/GeoRayMap/releases/download/v1.0/georaymap_srm_n16.pt

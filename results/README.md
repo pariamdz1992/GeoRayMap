@@ -24,6 +24,6 @@ Run names that start with `raynet_` come from GeoRayMap's development code name.
 | `raynet_srm_ssim0.0_edge0.0_bf16_bs1` | not in the paper: N = 64 with the L1 loss only, bfloat16 | – |
 
 The two RadioUNet rows (with and without ray channels) were written by `radiounet_ray/test.py`;
-their weights are `radiounet.pt` and `radiounet_ray_n16.pt`. The other baselines of Table 1
+the weights of the ray variant are `radiounet_ray_n16.pt`. The other baselines of Table 1
 (RME-GAN, UVM-Net, and our reproductions of RadioDiff and RadioFlow) were trained and measured
 with the same protocol, using code that is not part of this repository.

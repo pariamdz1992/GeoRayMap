@@ -26,8 +26,8 @@ RU_RAY=1 python test.py
 ```
 
 Other settings (`RU_EPOCHS`, `RU_BATCH`, `RU_STAGES`, `RU_CKPT`, ...) are environment variables,
-listed at the top of `train.py` and `test.py`. To evaluate the released weights:
-`RU_RAY=1 RU_CKPT=radiounet_ray_n16.pt python test.py` and `RU_CKPT=radiounet.pt python test.py`.
+listed at the top of `train.py` and `test.py`. To evaluate the released weights of the ray
+variant: `RU_RAY=1 RU_CKPT=radiounet_ray_n16.pt python test.py`.
 
 `lib/modules.py` and `lib/loaders.py` are RadioUNet's files, unchanged (MIT License, see
 `LICENSE-RadioUNet`); `lib/ray_wnet.py` adds the ray channels from `georaymap/rays.py`. These files
